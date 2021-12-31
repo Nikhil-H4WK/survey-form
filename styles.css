@@ -127,19 +127,27 @@ form {
 }
 
 
-/* Media queries */
- @media screen and (max-width: 240px) {
-    .container {
-        width: 40rem;
-    }
-     
+/* Media queries for phones*/
+
+ @media screen and (max-width: 600px) {
+     .container {
+         width: 80vw;
+     }
  }
 
- @media screen and (max-width: 160px) {
-     .container {
-         width: 35rem;
-     }
-     
+/* Media queries for Tablet potrait */
+
+ @media screen and (max-width: 900px) {
+    .container {
+        width: 80vw;
+    }     
+ }
+
+/* Media queries for Tablet landscape */
+ @media screen and (max-width: 1200px) {
+    .container {
+        width: 70vw;
+    }     
  }
 
 
