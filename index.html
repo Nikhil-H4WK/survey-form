@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title" class="text-center">Gaming Survey Form</h1>
+            <p class="description text-center">This survey form aims to get a sense on your gaming preferences</p>
+        </header>
+        <div class="survey-box">
+            <form action="#" id="survey-form">
+                <div class="form-section">
+                    <label for="name" class="section-heading">
+                        Name
+                    </label>
+                    <input type="text" name="name" id="name" class="text-info" placeholder="   Enter your name" required>
+                </div>
+                <div class="form-section">
+                    <label for="email" class="section-heading">
+                        Email
+                    </label>
+                    <input type="email" name="email" id="email" class="text-info" placeholder="   Enter your email" required>
+                </div>
+                <div class="form-section">
+                    <label for="age" class="section-heading">
+                        Age <span class="optional">(optional)</span>
+                    </label>
+                    <input type="number" name="age" id="age" class="text-info" placeholder="   Enter your age" required min="10" max="90">
+                </div>
+                <div class="form-section">
+                    <label for="often-play-games" class="section-heading">
+                        How often do you play games?
+                    </label>
+                    <select name="often-play-games" id="dropdown" required>
+                        <option disabled selected value="">Choose one option</option>
+                        <option value="veryoften">Very Often</option>
+                        <option value="often">Often</option>
+                        <option value="sometimes">Sometimes</option>
+                        <option value="almostnever">Almost Never</option>
+                        <option value="never">Never</option>
+                    </select>
+                </div>
+                <div class="form-section">
+                    <p class="section-heading">What is your favourite gaming console company?</p>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Microsoft-Xbox" required>
+                        <p>Microsoft-Xbox</p>
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Sony-Playstation">
+                        <p>Sony-Playstation</p>
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Nintendo">
+                        <p>Nintendo</p>
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Pc-Gamer">
+                        <p>I'm more of a PC Gamer</p>
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Smartphone-gamer">
+                        <p>I usally play on my Smart Phone</p>
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="console-company" class="input-radio" value="Other">
+                        <p>Atari, Saga or Other</p>
+                    </label><br>
+                </div>
+                <div class="form-section">
+                    <p class="section-heading">Which one of this most popular consoles have you own?</p><span class="optional">(check all that apply)</span>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ps1" id="ps1" class="checkbox-value">
+                        <p>Playstation 1</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ps2" id="ps2" class="checkbox-value">
+                        <p>Playstation 2</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ps3" id="ps3" class="checkbox-value">
+                        <p>Playstation 3</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ps4" id="ps4" class="checkbox-value">
+                        <p>Playstation 4</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ps5" id="ps5" class="checkbox-value">
+                        <p>Playstation 5</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="xbox" id="xbox" class="checkbox-value">
+                        <p>Xbox</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="xbox360" id="xbox-360" class="checkbox-value">
+                        <p>Xbox 360</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="xboxone" id="xbox-one" class="checkbox-value">
+                        <p>Xbox One</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="nintendo" id="nintendo" class="checkbox-value">
+                        <p>Nintendo (NES)</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="supernintendo" id="super-nintendo" class="checkbox-value">
+                        <p>Super Nintendo (SNES)</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="wii" id="wii" class="checkbox-value">
+                        <p>Nintendo wii</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="switch" id="switch" class="checkbox-value">
+                        <p>Ninetendo Switch 2</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="vr" id="vr" class="checkbox-value">
+                        <p>Virtual Reality (VR)</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="pc" id="pc" class="checkbox-value">
+                        <p>PC</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="ipad" id="ipad" class="checkbox-value">
+                        <p>I Pad </p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="iphone" id="iphone" class="checkbox-value">
+                        <p>I Phone</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="smartphone" id="smartphone" class="checkbox-value">
+                        <p>SmartPhone</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="nokia" id="nokia" class="checkbox-value">
+                        <p>Used to play snake game on Nokia</p>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="other" id="other" class="checkbox-value">
+                        <p>Got any other consoles?   Let me know by writing that here :</p>
+                        <input type="text" name="other" id="othervalue" placeholder="   Other consoles have you own?">
+                    </label>
+                </div>
+                <div class="form-section">
+                    <p class="section-heading">Any comments or suggestions?</p>
+                    <textarea name="comment" id="comment" class="input-textarea" placeholder="  Enter your comment here......."></textarea>
+                </div>
+                <div class="form-section">
+                    <button type="submit" class="submit-button">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
