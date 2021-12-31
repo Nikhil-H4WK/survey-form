@@ -131,20 +131,20 @@ form {
 
  @media screen and (max-width: 600px) {
      .container {
-         width: 90vw;
+         width: 100vw;
      }
  }
 
 /* Media queries for Tablet potrait */
 
- @media screen and (max-width: 900px) {
+ @media screen and (min-width: 600px) {
     .container {
         width: 80vw;
     }     
  }
 
 /* Media queries for Tablet landscape */
- @media screen and (max-width: 1200px) {
+ @media screen and (min-width: 900px) and (max-width: 1200px){
     .container {
         width: 90vw;
     }     
